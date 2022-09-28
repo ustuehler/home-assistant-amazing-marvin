@@ -10,6 +10,11 @@ An experimental [Amazing Marvin](https://amazingmarvin.com/) integration for [Ho
 - Supports configuration via the [integrations](https://my.home-assistant.io/redirect/integrations/) dashboard
 - Supports installation via [HACS](https://hacs.xyz/)
 
+## Contributing
+
+See the [Contributing Guide](CONTRIBUTING.md) for instructions on how to set up
+a local environment for development and testing.
+
 ## Credits
 
 The project structure is inspired by [cookiecutter-homeassistant-custom-component](https://github.com/oncleben31/cookiecutter-homeassistant-custom-component).
