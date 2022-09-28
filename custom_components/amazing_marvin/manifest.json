@@ -1,7 +1,7 @@
 {
   "domain": "amazing_marvin",
   "name": "Amazing Marvin",
-  "documentation": "https://github.com/ustuehler/home-assistant-amazing_marvin#readme",
+  "documentation": "https://github.com/ustuehler/home-assistant-amazing-marvin#readme",
   "issue_tracker": "https://github.com/ustuehler/home-assistant-amazing-marvin/issues",
   "dependencies": [],
   "codeowners": [
