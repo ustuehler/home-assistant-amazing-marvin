@@ -1,12 +1,9 @@
 name: Validation
 
 on:
-  #schedule:
-  #  - cron: "0 0 * * *"
-  push:
+  pull_request:
     branches:
       - main
-  pull_request:
 
 env:
   DEFAULT_PYTHON: 3.9
