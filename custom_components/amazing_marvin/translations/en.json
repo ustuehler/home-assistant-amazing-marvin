@@ -1,0 +1,21 @@
+{
+  "config": {
+    "title": "Set up Amazing Marvin integration",
+    "step": {
+      "user": {
+        "title": "Sign-in to Amazing Marvin",
+        "description": "Please provide the API token to access your Amazing Marvin account.",
+        "data": {
+          "api_token": "API Token"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid authentication credentials",
+      "unknown": "Unknown error occurred"
+    },
+    "abort": {
+      "already_configured": "This account is already configured"
+    }
+  }
+}
