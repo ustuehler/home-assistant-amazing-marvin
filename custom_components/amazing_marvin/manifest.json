@@ -12,5 +12,5 @@
     "git+https://github.com/ustuehler/py-amazing-marvin@v0.1.0#amazing_marvin==0.1.0"
   ],
   "iot_class": "cloud_polling",
-  "version": "0.1.2"
+  "version": "0.1.3"
 }
