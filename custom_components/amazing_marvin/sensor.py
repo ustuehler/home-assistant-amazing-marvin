@@ -75,6 +75,10 @@ class AmazingMarvinTodayEstimateSensor(AmazingMarvinEntity, SensorEntity):
 
             if 'subtasks' in item and item['subtasks']:
                 for subtask in item['subtasks'].values():
+                    if 'done' in subtask and subtask['done']:
+                        # Already completed subtasks don't count.
+                        continue
+
                     if 'timeEstimate' in subtask and subtask['timeEstimate']:
                         time_estimate += subtask['timeEstimate']
 
